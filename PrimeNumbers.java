@@ -1,17 +1,6 @@
 import java.util.ArrayList;
 public class PrimeNumbers{
     public static void main(String[] args){
-        // System.out.println(findPrime(100));
-        ArrayList<Integer> a = new ArrayList<>();
-        for(int i =1;i<10;i++){
-            a.add(i);
-        }
-        ArrayList<Integer> b= new ArrayList<>();
-        for(int i =9;i>4;i--){
-            b.add(i);
-        }
-        
-        System.out.println(add(b,a));
     }
     public static ArrayList<Integer> findPrime(int n){
         ArrayList<Integer> ans = new ArrayList<>();
